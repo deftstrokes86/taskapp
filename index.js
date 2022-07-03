@@ -18,13 +18,13 @@ function handleClick(){
       newTask.appendChild(textBox); //<div>
                                        //<i>lorem</i>
                                     //</div>
-      div.appendChild(small);//<div>
+      newTask.appendChild(small);//<div>
                                  //<i>lorem</i> 
                                  //<small></small>
                               //</div>
    
       var taskarea = document.getElementById("taskarea")
-      taskarea.appendChild(div);
+      taskarea.appendChild(newTask);
 
       document.getElementById("story").value = "";
       document.getElementById("date").value = "";
