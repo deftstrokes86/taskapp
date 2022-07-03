@@ -10,9 +10,11 @@ function handleClick(){
       newTask.setAttribute("class", "taskInd"); //This attaches the class to the div <div class="taskInd"></div>
    
       var textBox  = document.createElement("i"); //This creates the i element <i></i>
+      textBox.setAttribute("class", "taskDetails")
       textBox.innerHTML = text;  // This will be the value of the form<i>lorem</i>
    
       var small = document.createElement("small"); //To create the small element <small></small>
+      small.setAttribute("class", "taskDate")
       small.innerHTML = date; //To collect the value of date <small>09/09/2009</small>
    
       newTask.appendChild(textBox); //<div>

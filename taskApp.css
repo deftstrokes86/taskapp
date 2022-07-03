@@ -134,20 +134,20 @@
   }
 
   textarea::-webkit-input-placeholder {
-        color: #000;
+      color: #000;
       font-family: 'Poppins', sans-serif;
       text-align: center;
       padding-top: 2%;
   }
 
   textarea::-moz-placeholder {
-        color: #000;
-        font-family: 'Poppins', sans-serif;
+      color: #000;
+      font-family: 'Poppins', sans-serif;
       text-align: center;
       padding-top: 2%;
     }
   textarea:-moz-placeholder {   /* Older versions of Firefox */
-        color: #000;
+      color: #000;
       font-family: 'Poppins', sans-serif;
       text-align: center;
       padding-top: 2%;
@@ -155,8 +155,8 @@
     }
 
   textarea:-ms-input-placeholder { 
-        color: #000;
-        font-family: 'Poppins', sans-serif;
+      color: #000;
+      font-family: 'Poppins', sans-serif;
       text-align: center;
       padding-top: 2%;
     }
@@ -178,3 +178,10 @@
       padding: 1rem 0;
   }
   
+  .taskDetails{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 30px;   
+  }
